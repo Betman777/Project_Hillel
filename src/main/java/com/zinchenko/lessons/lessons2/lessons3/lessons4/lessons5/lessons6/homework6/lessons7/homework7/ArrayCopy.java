@@ -7,10 +7,10 @@ public class ArrayCopy {
 
         int[] source = new int[]{45, 22, 11, 6};
         int[] target = new int[]{1, 2, 11, 9};
-        System.out.println(Arrays.toString(source));
-        System.out.println(Arrays.toString(target));
+        System.out.println(" Source : " + Arrays.toString(source));
+        System.out.println(" Target : " + Arrays.toString(target));
         target = sourceNew(target, source);
-        System.out.println(Arrays.toString(target));
+        System.out.println(" Result(Target) : " + Arrays.toString(target));
     }
 
     public static int[] sourceNew(int[] target, int[] source) {

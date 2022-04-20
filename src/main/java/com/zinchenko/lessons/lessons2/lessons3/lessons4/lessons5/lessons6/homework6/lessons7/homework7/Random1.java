@@ -12,7 +12,7 @@ public class Random1 {
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * 11);
         }
-        System.out.println("Arrays number" + Arrays.toString(array));
+        System.out.println("Arrays number : " + Arrays.toString(array));
         int min = array[0];
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
