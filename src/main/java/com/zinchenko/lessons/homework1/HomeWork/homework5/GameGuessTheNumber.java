@@ -11,11 +11,10 @@ public class GameGuessTheNumber {
         int count = 0;
         int max = 11;
         int restartTheGame;
+        boolean isWinner = false;
         do {
 
             int random = (int) ((Math.random() * max));
-            boolean isWinner = false;
-
             System.out.println("Let's play Guess the number.");
             System.out.println("You have 5 attempts.");
             System.out.println("Enter a number from 0 to 10 : ");
