@@ -24,7 +24,7 @@ public class ShakerSort {
                 }
             }
             left++;
-            for (int i = left; i <= right; i++) {
+            for (int i = left; i <=git right; i++) {
                 if (massive[i - 1] > massive[i]) {
                     int temp = massive[i];
                     massive[i] = massive[i - 1];
