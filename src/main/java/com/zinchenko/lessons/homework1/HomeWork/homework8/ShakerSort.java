@@ -8,7 +8,7 @@ public class ShakerSort {
         int[] massive = new int[10];
 
         for (int i = 0; i < massive.length; i++) {
-            massive[i] = (int) (Math.random() * 10);
+            massive[i] = (int) ((Math.random() * 10)-5);
 
         }
         System.out.print(Arrays.toString(massive));
@@ -24,7 +24,7 @@ public class ShakerSort {
                 }
             }
             left++;
-            for (int i = left; i <=git right; i++) {
+            for (int i = left; i <= right; i++) {
                 if (massive[i - 1] > massive[i]) {
                     int temp = massive[i];
                     massive[i] = massive[i - 1];
@@ -33,11 +33,11 @@ public class ShakerSort {
             }
             right--;
         } while (left <= right);
-        System.out.println();
         for (int i = 0; i < massive.length; i++) {
 
 
         }
         System.out.print(Arrays.toString(massive));
+
     }
 }
