@@ -8,7 +8,7 @@ public class ShakerSort {
         int[] massive = new int[10];
 
         for (int i = 0; i < massive.length; i++) {
-            massive[i] = (int) ((Math.random() * 10)-5);
+            massive[i] = (int) ((Math.random() * 10) - 5);
 
         }
         System.out.print(Arrays.toString(massive));
@@ -31,6 +31,7 @@ public class ShakerSort {
                     massive[i - 1] = temp;
                 }
             }
+
             right--;
         } while (left <= right);
         for (int i = 0; i < massive.length; i++) {
