@@ -3,7 +3,7 @@ package com.zinchenko.lessons.homework1.HomeWork.homework8;
 import java.util.Arrays;
 
 public class ShakerSort {
-    public static void main(String[] args) {
+    public static void main (String[] args) {
 
         int[] massive = new int[10];
 
