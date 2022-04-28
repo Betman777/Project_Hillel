@@ -11,7 +11,7 @@ public class ShakerSort {
             massive[i] = (int) ((Math.random() * 10) - 5);
 
         }
-        System.out.print(Arrays.toString(massive));
+        System.out.println(Arrays.toString(massive));
 
         int left = 1;
         int right = massive.length - 1;
@@ -34,11 +34,10 @@ public class ShakerSort {
 
             right--;
         } while (left <= right);
-        for (int i = 0; i < massive.length; i++) {
 
 
-        }
-        System.out.print(Arrays.toString(massive));
+        System.out.println(Arrays.toString(massive));
+
 
     }
 }
