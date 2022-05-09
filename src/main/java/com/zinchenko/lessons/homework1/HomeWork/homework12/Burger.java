@@ -14,23 +14,31 @@ public class Burger {
         this.meat = meat;
         this.greenery = greenery;
         this.mayonnaise = mayonnaise;
-        System.out.println("Classic Burger :\n Composition : "
-                + bun + " ," + meat + ", " + cheese + ", " + greenery + " ," + mayonnaise);
+       printInfoClassicBurger();
     }
-
 
     public Burger(String bun, String meat, String cheese, String greenery) {
         this.bun = bun;
         this.meat = meat;
         this.cheese = cheese;
         this.greenery = greenery;
-        System.out.println("Diet Burger  : \n Composition : "
-               + bun + " ," + meat + ", " + cheese + ", " + greenery);
+        printInfoDietBurger();
     }
 
 
     public Burger() {
-        System.out.println("Double meat Burger : \n Composition : "
-              + bun + " ," + meat + ", " + cheese + ", " + greenery + " ," + mayonnaise);
-    };
+       printInfoDoubleMeatBurger();
+    }
+    public void printInfoClassicBurger(){
+        System.out.println("Classic Burger :\n Composition : "
+                + bun + " ," + meat + ", " + cheese + ", " + greenery + " ," + mayonnaise);
+    }
+    public  void printInfoDietBurger(){
+        System.out.println("Diet Burger  : \n Composition : "
+                + bun + " ," + meat + ", " + cheese + ", " + greenery);
+    }
+    public void printInfoDoubleMeatBurger(){
+        System.out.println("Classic Burger :\n Composition : "
+                + bun + " ," + meat + ", " + cheese + ", " + greenery + " ," + mayonnaise);
+    }
 }
