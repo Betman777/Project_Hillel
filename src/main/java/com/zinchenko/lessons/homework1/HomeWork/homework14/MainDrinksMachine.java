@@ -3,7 +3,7 @@ package com.zinchenko.lessons.homework1.HomeWork.homework14;
 
 import java.util.Scanner;
 
-public class MainDrinksMashine {
+public class MainDrinksMachine {
     private static Scanner scanner = new Scanner(System.in);
     public static int total = 0;
 
