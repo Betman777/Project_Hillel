@@ -1,6 +1,6 @@
-package com.zinchenko.lessons.homework1.homework15;
+package com.zinchenko.lessons.homework1.homework15.secondtask;
 
-import com.zinchenko.lessons.homework1.homework15.MusicStyles;
+import com.zinchenko.lessons.homework1.homework15.secondtask.MusicStyles;
 
 public class RockMusic extends MusicStyles {
     @Override

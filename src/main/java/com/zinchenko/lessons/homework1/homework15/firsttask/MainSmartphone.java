@@ -1,6 +1,7 @@
-package com.zinchenko.lessons.homework1.homework15;
+package com.zinchenko.lessons.homework1.homework15.firsttask;
 
-import java.util.Arrays;
+import com.zinchenko.lessons.homework1.homework15.firsttask.Androids;
+import com.zinchenko.lessons.homework1.homework15.firsttask.iPhones;
 
 public class MainSmartphone {
     public static void main(String[] args) {

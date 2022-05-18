@@ -1,4 +1,4 @@
-package com.zinchenko.lessons.homework1.homework15;
+package com.zinchenko.lessons.homework1.homework15.secondtask;
 
 public class ClassicMusic extends MusicStyles {
     @Override

@@ -1,6 +1,6 @@
-package com.zinchenko.lessons.homework1.homework15;
+package com.zinchenko.lessons.homework1.homework15.firsttask;
 
-public class Androids implements Smartphones,LinuxOS{
+public class Androids implements Smartphones, LinuxOS {
     @Override
     public void call() {
         System.out.println("This android calling");
